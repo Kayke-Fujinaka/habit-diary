@@ -19,7 +19,8 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
         "@interfaces/*": ["src/interfaces/*"], 
-        "@config/*": ["src/config/*"] 
+        "@config/*": ["src/config/*"],
+        "@middleware/*": ["src/middleware/*"]
     }
   }
 }

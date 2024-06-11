@@ -1,10 +1,16 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 
 import { CreateHabitDto } from './dto/create-habit.dto';
 import { UpdateHabitDto } from './dto/update-habit.dto';
 
 @Injectable()
 export class HabitsService {
+  private logger: Logger;
+
+  constructor() {
+    this.logger = new Logger(HabitsService.name);
+  }
+
   create(createHabitDto: CreateHabitDto) {
     return 'This action adds a new habit';
   }
