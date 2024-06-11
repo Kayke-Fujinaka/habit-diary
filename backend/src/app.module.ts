@@ -2,7 +2,7 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { LoggerModule } from 'nestjs-pino';
 
 import { LoggerMiddleware } from '@middleware/logger.middleware';
-import { HabitsModule } from './habits/habits.module';
+import { HabitsModule } from './modules/habits/habits.module';
 
 @Module({
   imports: [
