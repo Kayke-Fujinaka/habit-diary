@@ -1,7 +1,9 @@
 import { Module } from '@nestjs/common';
 
+import { HabitsModule } from './habits/habits.module';
+
 @Module({
-  imports: [],
+  imports: [HabitsModule],
   controllers: [],
   providers: [],
 })
