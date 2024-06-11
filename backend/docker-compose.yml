@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: 'habit-tracker-api'
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - .:/usr/src/app
+    command: yarn start:local
+    ports:
+      - ${PORT}:${PORT}
