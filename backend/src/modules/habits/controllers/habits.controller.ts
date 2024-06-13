@@ -8,9 +8,9 @@ import {
   Post,
 } from '@nestjs/common';
 
-import { CreateHabitDto } from './dto/create-habit.dto';
-import { UpdateHabitDto } from './dto/update-habit.dto';
-import { HabitsService } from './habits.service';
+import { CreateHabitDto } from '../dto/create-habit.dto';
+import { UpdateHabitDto } from '../dto/update-habit.dto';
+import { HabitsService } from '../services/habits.service';
 
 @Controller('habits')
 export class HabitsController {

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 
+import { HabitsService } from '../services/habits.service';
 import { HabitsController } from './habits.controller';
-import { HabitsService } from './habits.service';
 
 describe('HabitsController', () => {
   let controller: HabitsController;

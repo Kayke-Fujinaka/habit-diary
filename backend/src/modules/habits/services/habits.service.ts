@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 
-import { CreateHabitDto } from './dto/create-habit.dto';
-import { UpdateHabitDto } from './dto/update-habit.dto';
+import { CreateHabitDto } from '../dto/create-habit.dto';
+import { UpdateHabitDto } from '../dto/update-habit.dto';
 
 @Injectable()
 export class HabitsService {
