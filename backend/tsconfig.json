@@ -21,7 +21,8 @@
         "@interfaces/*": ["src/interfaces/*"], 
         "@config/*": ["src/config/*"],
         "@middleware/*": ["src/middleware/*"],
-        "@modules/*": ["src/modules/*"]
+        "@modules/*": ["src/modules/*"],
+        "@utils/*": ["src/utils/*"]
     }
   }
 }
