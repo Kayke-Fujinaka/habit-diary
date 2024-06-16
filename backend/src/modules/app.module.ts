@@ -5,9 +5,9 @@ import { LoggerModule } from 'nestjs-pino';
 import { loggerConfig } from '@config/logger.config';
 import { PostgresConfig } from '@config/postgres.config';
 import { LoggerMiddleware } from '@middleware/logger.middleware';
+import { HabitCompletionModule } from '@modules/habit-completion/habit-completion.module';
 import { HabitsModule } from '@modules/habits/habits.module';
 import { UsersModule } from '@modules/users/users.module';
-import { HabitCompletionModule } from './habit-completion/habit-completion.module';
 
 @Module({
   imports: [
