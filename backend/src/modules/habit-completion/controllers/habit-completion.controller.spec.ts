@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 
+import { HabitCompletionService } from '../services/habit-completion.service';
 import { HabitCompletionController } from './habit-completion.controller';
-import { HabitCompletionService } from './habit-completion.service';
 
 describe('HabitCompletionController', () => {
   let controller: HabitCompletionController;

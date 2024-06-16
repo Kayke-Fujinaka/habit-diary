@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 
-import { CreateHabitCompletionDto } from './dto/create-habit-completion.dto';
-import { UpdateHabitCompletionDto } from './dto/update-habit-completion.dto';
+import { CreateHabitCompletionDto } from '../dto/create-habit-completion.dto';
+import { UpdateHabitCompletionDto } from '../dto/update-habit-completion.dto';
 
 @Injectable()
 export class HabitCompletionService {
