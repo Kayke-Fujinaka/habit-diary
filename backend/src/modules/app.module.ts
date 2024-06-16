@@ -7,6 +7,7 @@ import { PostgresConfig } from '@config/postgres.config';
 import { LoggerMiddleware } from '@middleware/logger.middleware';
 import { HabitsModule } from '@modules/habits/habits.module';
 import { UsersModule } from '@modules/users/users.module';
+import { HabitCompletionModule } from './habit-completion/habit-completion.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { UsersModule } from '@modules/users/users.module';
     LoggerModule.forRoot(loggerConfig),
     HabitsModule,
     UsersModule,
+    HabitCompletionModule,
   ],
   controllers: [],
   providers: [],
