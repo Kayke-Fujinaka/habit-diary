@@ -16,6 +16,7 @@ export class PostgresConfig implements TypeOrmOptionsFactory {
       entities: [],
       synchronize: true,
       migrationsRun: true,
+      autoLoadEntities: true,
     };
   }
 }
